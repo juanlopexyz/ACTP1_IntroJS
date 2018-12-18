@@ -14,7 +14,14 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+
+      #row-3 {transition: all 1s}
+
+    </style>
   </head>
+  
+
   <body>
     <h1> Hey !! </h1>
     <section class="section-1">
@@ -84,6 +91,12 @@
   $("h1").click(function() {
     sumar();
   })
+
+
+  
+  $("#row-3").click(function() {
+    $("#row-3").css("background-color", "grey");  
+  }) 
 
 
 
